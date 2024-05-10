@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,
+body {
+	height: 100%;
+	font-size: 28px;
+	line-height: 1.4;
+	color: #404041;
+	font-family: 'Barlow Semi Condensed';
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+*,
+*:focus {
+	outline: none;
+	border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0
+}
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	src: url('../fonts/BarlowSemiCondensed-Regular.eot');
+	src: url('../fonts/BarlowSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BarlowSemiCondensed-Regular.woff2') format('woff2'),
+		url('../fonts/BarlowSemiCondensed-Regular.woff') format('woff'),
+		url('../fonts/BarlowSemiCondensed-Regular.ttf') format('truetype'),
+		url('../fonts/BarlowSemiCondensed-Regular.svg#BarlowSemiCondensed-Regular') format('svg');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	src: url('../fonts/BarlowSemiCondensed-Bold.eot');
+	src: url('../fonts/BarlowSemiCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BarlowSemiCondensed-Bold.woff2') format('woff2'),
+		url('../fonts/BarlowSemiCondensed-Bold.woff') format('woff'),
+		url('../fonts/BarlowSemiCondensed-Bold.ttf') format('truetype'),
+		url('../fonts/BarlowSemiCondensed-Bold.svg#BarlowSemiCondensed-Bold') format('svg');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Barlow Semi Condensed';
+	src: url('../fonts/BarlowSemiCondensed-Italic.eot');
+	src: url('../fonts/BarlowSemiCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BarlowSemiCondensed-Italic.woff2') format('woff2'),
+		url('../fonts/BarlowSemiCondensed-Italic.woff') format('woff'),
+		url('../fonts/BarlowSemiCondensed-Italic.ttf') format('truetype'),
+		url('../fonts/BarlowSemiCondensed-Italic.svg#BarlowSemiCondensed-Italic') format('svg');
+	font-style: italic;
+}
+@font-face {
+	font-family: "Sans";
+	src: url("../fonts/Sans.eot");
+	src: url("../fonts/Sans.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/Sans.woff")format("woff"),
+		url("../fonts/Sans.woff2")format("woff2"),
+		url("../fonts/Sans.ttf")format("truetype"),
+		url("../fonts/Sans.svg#Sans")format("svg");
+	font-weight: normal;
+} h1 {
+	font-size: 40px;
+	color: #000152;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+h2 {
+	font-size: 20px;
+	font-family: "Sans";
+	font-weight: normal;
+}
+p {
+	font-size: 20px;
+	color: #000152;
+}
+ul {
+	margin: 0 0 30px;
+	padding: 0;
+}
+ul li {
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #000152;
+	letter-spacing: -0.17px;
+	position: relative;
+	list-style: none;
+	padding-left: 40px;
+}
+ul li:before {
+	position: absolute;
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: #000152;
+	border-radius: 100%;
+	top: 10px;
+	left: 18px;
+}
+.certificate-wrapper {
+	max-width: 1241px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 30px 72px 60px;
+	background: url('../images/certificate-bg.png') no-repeat;
+	background-size:800px;
+	background-position: top right;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.certificate-wrapper .header-block {
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 50px;
+}
+.certificate-wrapper .header-block h2 {
+	max-width: 240px;
+	text-align: center;
+	width: 100%;
+}
+.certificate-wrapper .main-wrapper {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.certificate-wrapper .heading-block {
+	margin-bottom: 30px;
+}
+.certificate-wrapper .heading-block h1 {
+	max-width: 405px;
+	width: 100%;
+	letter-spacing: 1.29px;
+	line-height: 1.2;
+}
+.certificate-wrapper .heading-block h1 span {
+	color: #004aad;
+	font-weight: 400;
+}
+.certificate-wrapper .entrant-details {
+	font-size: 21px;
+	color: #000152;
+}
+.certificate-wrapper .entrant-details .entrant-name {
+	margin-bottom: 20px;
+	letter-spacing: -0.3px;
+}
+.certificate-wrapper .entrant-info {
+	position: relative;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+	letter-spacing: 1.4px;
+}
+.certificate-wrapper .entrant-info ::after {
+	content: "";
+	width: 64%;
+	height: 1px;
+	background: #000152;
+	display: block;
+	position: absolute;
+	bottom: 0;
+}
+.certificate-wrapper .entrant-info p {
+	margin-bottom: 10px;
+	letter-spacing: 0.6px;
+}
+.certificate-wrapper .entrant-info p:last-child {
+	margin-bottom: 0;
+}
+.certificate-wrapper .certificate-info {
+	font-style: italic;
+}
+.certificate-wrapper .certificate-info p {
+	letter-spacing: -0.14px;
+	margin-bottom: 12px;
+}
+.certificate-wrapper.final-certificate-info .certificate-info p{
+	margin-bottom: 5px;
+}
+.final-certificate-info ul li{
+	margin-bottom: 5px;
+}
+.certificate-wrapper.final-certificate-info .certificate-info.small-txt p{
+	font-size: 18px;
+}
+.certificate-wrapper .certificate-info.small-txt p {
+	font-size: 18px;
+}
+.certificate-wrapper .certificate-info.small-txt ul {
+	margin: 0;
+}
+.certificate-wrapper .certificate-info.small-txt ul li {
+	font-size: 20px;
+	padding-left: 14px;
+}
+.certificate-wrapper.final-certificate-info .certificate-info.small-txt ul li {
+	font-size: 18px;
+}
+.certificate-wrapper .certificate-info.small-txt ul li:before {
+	width: 6px;
+	height: 6px;
+	top: 12px;
+	left: 1px;
+}
+.certificate-wrapper.final-certificate-info .certificate-info.small-txt ul li:before{
+	top: 8px;
+}
+.certificate-wrapper .footer-block {
+	margin-top: 30px;
+	padding: 0 30px;
+}
+.certificate-wrapper .sign-block {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 22px;
+	color: #000152;
+	font-weight: 700;
+	letter-spacing: 1.9px;
+}
+.certificate-wrapper .sign-block .sign-inner{
+	letter-spacing: 1.1px;
+}
+.certificate-wrapper .sign-block .sign-inner:not(:first-child) {
+	margin-left: 97px;
+}
+.certificate-wrapper .sign-block .sign {
+	border-bottom: 1px solid #000152;
+	padding-bottom: 15px;
+	margin-bottom: 10px 
+}
+.certificate-wrapper .sign-block .sign-author {
+	font-size: 20px;
+	font-weight: 400;
+}
+.certificate-wrapper .sign-block .sign-name {
+	margin-bottom: 11px;
+}
